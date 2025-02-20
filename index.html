@@ -5,162 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>¡Feliz Cumpleaños, Lic. Kity!</title>
     <link rel="stylesheet" href="styles.css" />
-    <style>
-      body {
-        font-family: 'Georgia', serif;
-        background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
-        color: #fff;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-        overflow-x: hidden;
-      }
-
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        text-align: center;
-      }
-
-      /* Encabezado */
-      header {
-        padding: 40px 20px;
-        margin-bottom: 20px;
-        animation: fadeIn 2s ease-in-out;
-      }
-
-      header h1 {
-        font-size: 3rem;
-        margin: 0;
-        color: #fff;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      }
-
-      header p {
-        font-size: 1.2rem;
-        margin: 10px 0 0;
-        color: #fff;
-      }
-
-      /* Galería de fotos */
-      .gallery {
-        margin: 40px 0;
-        animation: fadeIn 2s ease-in-out;
-      }
-
-      .gallery h2 {
-        font-size: 2.5rem;
-        color: #fff;
-        margin-bottom: 20px;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-      }
-
-      .photo-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        padding: 20px;
-      }
-
-      .photo-container {
-        overflow: hidden;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(255, 235, 59, 0.3);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      .photo-container:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 16px rgba(255, 235, 59, 0.6);
-      }
-
-      .photo {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-      }
-
-      /* Mensaje de cumpleaños */
-      .message {
-        background-color: rgba(255, 235, 59, 0.1);
-        padding: 40px 20px;
-        border-radius: 10px;
-        margin-top: 40px;
-        animation: fadeIn 3s ease-in-out;
-      }
-
-      .message h2 {
-        font-size: 2.5rem;
-        color: #ffeb3b;
-        margin-bottom: 20px;
-      }
-
-      .message p {
-        font-size: 1.1rem;
-        text-align: left;
-        color: #ccc;
-      }
-
-      .message p:last-child {
-        text-align: right;
-        font-style: italic;
-        margin-top: 20px;
-        color: #ffeb3b;
-      }
-
-      /* Globos */
-      .balloons {
-        position: absolute;
-        top: 10px;
-        right: 20px;
-        z-index: 5;
-      }
-
-      .balloon {
-        width: 60px;
-        height: 90px;
-        background-color: #ffeb3b;
-        border-radius: 50%;
-        margin: 5px;
-        display: inline-block;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        animation: float 3s ease-in-out infinite;
-      }
-
-      .balloon:nth-child(2) {
-        background-color: #ff4081;
-        animation-delay: 1s;
-      }
-
-      .balloon:nth-child(3) {
-        background-color: #3f51b5;
-        animation-delay: 2s;
-      }
-
-      @keyframes float {
-        0% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-20px);
-        }
-        100% {
-          transform: translateY(0);
-        }
-      }
-
-      /* Animaciones */
-      @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-      }
-    </style>
   </head>
   <body>
     <div class="balloons">
@@ -173,23 +17,21 @@
       <!-- Encabezado -->
       <header>
         <h1>¡Feliz Cumpleaños, Lic. Kity!</h1>
-        <p>
-          Hoy celebramos el maravilloso ser que eres, y lo afortunados que somos de conocerte.
-        </p>
+        <p>Hoy celebramos tu vida y lo increíble que eres. ¡Qué suerte tengo de conocerte!</p>
       </header>
 
       <!-- Galería de fotos -->
       <section class="gallery">
-        <h2>Nuestros Momentos Juntas</h2>
+        <h2>Algunos de nuestros mejores recuerdos</h2>
         <div class="photo-grid">
           <div class="photo-container">
-            <img src="foto1.png" alt="Foto de Kity 1" class="photo" />
+            <img src="foto1.png" alt="Foto 1" class="photo" />
           </div>
           <div class="photo-container">
-            <img src="foto3.png" alt="Foto de Kity 2" class="photo" />
+            <img src="foto2.png" alt="Foto 2" class="photo" />
           </div>
           <div class="photo-container">
-            <img src="foto2.png" alt="Foto de Kity 3" class="photo" />
+            <img src="foto3.png" alt="Foto 3" class="photo" />
           </div>
         </div>
       </section>
@@ -198,10 +40,10 @@
       <section class="message">
         <h2>Para ti, Kity</h2>
         <p>
-          Eres una persona increíble, llena de luz y alegría. En este día especial, quiero desearte un año lleno de momentos felices, risas y bendiciones. ¡Te mereces lo mejor!
+          Eres una persona increíble, llena de luz y alegría. En este día especial, quiero desearte todo lo mejor: salud, amor, felicidad y éxito. ¡Te mereces lo mejor!
         </p>
         <p>
-          Con todo mi cariño, <br />
+          Con mucho cariño, <br />
           Iver Guerrero Ortiz
         </p>
       </section>
