@@ -92,7 +92,7 @@ header p {
 .message p {
   font-size: 1.4rem;
   text-align: center;
-  color: #ccc;
+  color: #000000;
 }
 
 .message p:last-child {
