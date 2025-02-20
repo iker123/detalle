@@ -76,7 +76,7 @@ header p {
 
 /* Mensaje de cumpleaños */
 .message {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro */
   padding: 40px 20px;
   border-radius: 10px;
   margin-top: 40px;
