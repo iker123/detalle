@@ -76,7 +76,7 @@ header p {
 
 /* Mensaje de cumpleaños */
 .message {
-  background-color: rgba(255, 235, 59, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 40px 20px;
   border-radius: 10px;
   margin-top: 40px;
@@ -90,8 +90,8 @@ header p {
 }
 
 .message p {
-  font-size: 1.1rem;
-  text-align: left;
+  font-size: 1.4rem;
+  text-align: center;
   color: #ccc;
 }
 
